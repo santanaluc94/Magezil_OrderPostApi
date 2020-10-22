@@ -1,0 +1,13 @@
+{
+    "name": "magezil/module-order-post-api",
+    "description": "Custom module communication via API between Magento 2 and Postman, integrating in real time all new orders generated in the virtual store.",
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+          "Magezil\\OrderPostApi\\": ""
+        }
+    }
+}
