@@ -24,22 +24,12 @@ class Settings
         return $this->scopeConfig->isSetFlag(self::MODULE_ENABLE, ScopeInterface::SCOPE_WEBSITE);
     }
 
-    public function hasBestsellerTitle(): bool
-    {
-        return $this->scopeConfig->isSetFlag(self::ORDER_POST_API_KEY, ScopeInterface::SCOPE_WEBSITE);
-    }
-
-    public function getBestsellerTitle(): string
+    public function getApiKey(): string
     {
         return $this->scopeConfig->getValue(self::ORDER_POST_API_KEY, ScopeInterface::SCOPE_WEBSITE);
     }
 
-    public function hasDisplayLimit(): bool
-    {
-        return $this->scopeConfig->isSetFlag(self::ORDER_POST_ENDPOINT, ScopeInterface::SCOPE_WEBSITE);
-    }
-
-    public function getDisplayLimit(): string
+    public function getEndpoint(): string
     {
         return $this->scopeConfig->getValue(self::ORDER_POST_ENDPOINT, ScopeInterface::SCOPE_WEBSITE);
     }
