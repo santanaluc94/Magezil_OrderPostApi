@@ -42,7 +42,7 @@ class SendOrderToApi implements ObserverInterface
                 $endpoint = $this->orderPostSettings->getEndpoint();
 
                 if (empty($apiKey) || empty($endpoint)) {
-                    throw new IntegrationException(__('You need to add values in system settings.'));
+                    throw new IntegrationException(__('It is necessary to add values in system settings.'));
                 }
 
                 // Send order mapped to api here

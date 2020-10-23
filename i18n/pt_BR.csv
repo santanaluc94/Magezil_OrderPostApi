@@ -1,0 +1,6 @@
+Order Api,Pedido pra API
+"An error occurred while trying to map the order fields.","Um erro ocorreu no mapeamento dos campos do pedido."
+"It is necessary to add values in system settings.","É necessário definir os valores nas configurações do sistema."
+"Order %1 sent to API.","Pedido %1 enviado à API."
+"It was not possible to send the order to API.","Não foi possível enviar o pedido à API."
+"Module is disable! The order can not send to API.","O Módulo está desabilitado! O pedido não pode ser enviado à API."
