@@ -13,12 +13,14 @@
                 </field>
                 <field id="api_key" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>API Key</label>
+                    <comment>Api key: 1234xx2x444xxxxx55555xxx</comment>
                     <depends>
                         <field id="magezil_order_post_api/general/enable">1</field>
                     </depends>
                 </field>
                 <field id="endpoint" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Endpoint</label>
+                    <comment>Endpoint: sales/add</comment>
                     <depends>
                         <field id="magezil_order_post_api/general/enable">1</field>
                     </depends>
