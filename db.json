@@ -1,0 +1,35 @@
+{
+    "customer": {
+        "name": "Nome completo do cliente",
+        "cpf_cnpj": "Formatos padrão com máscara",
+        "razao_social": "Razão Social da Empresa",
+        "nome_fantasia": "Nome Fantasia da Empresa",
+        "insc_estadual": "0000000 (opcional)",
+        "dob": "00/00/0000 (opcional)",
+        "telephone": "(00) 0000-00000"
+    },
+    "shipping_address": {
+        "street": "Rua teste",
+        "number": "123",
+        "additional": "Complemento (opcional)",
+        "neighborhood": "Bairro",
+        "city": "Cidade",
+        "city_ibge_code": "000000",
+        "uf": "UF"
+    },
+    "items": [
+        {
+            "sku": "Código SKU do item",
+            "name": "Nome do produto",
+            "price": "Preço do item no pedido",
+            "qty": "Quantidade vendida no pedido"
+        }
+    ],
+    "shipping_method": "Código da forma de entrega",
+    "payment_method": "Código da forma de pagamento",
+    "installments": "Número de parcelas do pedido (default = 1)",
+    "subtotal": 1500.00,
+    "shipping_amount": 39.90,
+    "total_discounts": 19.90,
+    "total": 1520.00
+}
